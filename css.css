@@ -1,0 +1,46 @@
+/*Cascading Style Sheets*/
+body {
+    margin: 0;
+  }
+  main {
+    background-color: steelblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 400px;
+    background-color: white;
+    padding: 32px;
+    border-radius: 20px;
+    margin: 32px;
+    text-align: center;
+  }
+  h1 {
+    color: #4061bd;
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 0;
+  }
+  
+  p {
+    color: #4061bd;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  
+  
+  img {
+    width: 140px;
+    height: 140px;
+    border: solid steelblue 1px;
+    border-radius: 9999px;
+  }
+  
+  a {
+    margin: 8px;
+    font-size: 25px;
+  }
+  
