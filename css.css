@@ -10,16 +10,17 @@ body {
     align-items: center;
   }
   .card {
-    width: 500px;
+    width: 850px;
     background-color: white;
     padding: 32px;
     border-radius: 20px;
-    margin: 40px;
+    height: 600px;
     text-align: center;
   }
+
   h1 {
     color: #4061bd;
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Lato", sans-serif;
     margin-bottom: 0;
   }
@@ -33,14 +34,14 @@ body {
   
   
   img {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border: solid steelblue 1px;
     border-radius: 9999px;
   }
   
   a {
-    margin: 8px;
-    font-size: 25px;
+    margin: 16px;
+    font-size: 50px;
   }
   
