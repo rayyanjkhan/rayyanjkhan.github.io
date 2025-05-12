@@ -9,20 +9,24 @@ main {
     align-items: center;
 }
 .card {
-    width: 80%;
+    width: 90%;
     max-width: 875px;
     background-color: white;
-    padding: 32px;
+    padding: 24px;
     border-radius: 20px;
     height: auto;
     max-height: 80vh;
     text-align: center;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
 }
 
 h1 {
     color: #4061bd;
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Lato", sans-serif;
     margin-bottom: 0;
 }
@@ -30,49 +34,51 @@ h1 {
 p {
     color: #4061bd;
     font-family: "Lato", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border: solid steelblue 1px;
     border-radius: 9999px;
+    margin: 0 auto;
 }
 
 a {
-    margin: 16px;
-    font-size: 60px;
-    padding: 15px 30px;
+    margin: 8px;
+    font-size: 40px;
+    padding: 15px 25px;
     display: inline-block;
-    min-width: 150px;
+    min-width: 140px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
     .card {
-        width: 90%;
-        padding: 20px;
-        max-height: 70vh;
-        overflow-y: auto;
+        width: 95%;
+        padding: 16px;
+        max-height: 85vh;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     p {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     a {
-        font-size: 40px;
-        padding: 10px 20px;
+        font-size: 36px;
+        padding: 12px 20px;
         min-width: 120px;
     }
 }
